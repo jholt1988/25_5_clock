@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+#clock {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -23,7 +23,36 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.time-setters{
+  display:flex;
+  text-align: center;
+  width:100%;
+  justify-content: space-around;
+}
 
+button{
+  margin: 20px; 
+  padding: 10px, 20px;
+  border: none;
+  border-radius: 5px;
+  cursor:pointer;
+  background-color: darkviolet;
+
+}
+
+h4{
+  font-size: 30px;
+  margin-top:20px;
+}
+
+span{
+  font-size:24px;
+}
+
+.display{
+  text-align: center;
+  margin-top: 20px;
+}
 .App-link {
   color: #61dafb;
 }
